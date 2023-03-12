@@ -9,6 +9,11 @@ form.addEventListener('submit', e => {
     attendedClasses =Number(attendedClasses);
 
 	var attendancePercentage = (attendedClasses / totalClasses) * 100;
+	if(attendancePercentage >100){
+	  attendancePercentage="0";
+ alert("class attended cannot be greater than total classes");
+ 
+}
     document.getElementById('percentage').innerHTML=attendancePercentage +"%";
 
 	var classesNeeded = Math.ceil((0.85 * totalClasses - attendedClasses) );
