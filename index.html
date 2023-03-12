@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div   class="container">
+		<h1>Attendance Calculator</h1>
+		<div id="popup" class="popup">
+			<div class="cancel">
+				<i  onclick="hidde()"  class="fa fa-close"></i>
+			</div>
+			<div>
+				<div class="steps">
+					STEP 1: Enter the total classes you have in a semester. <br>
+					STEP 2: Enter the total number of classes you have attended so far.
+					<br>STEP 3: Click on the "calculate" button.
+					</div>
+					<div class="about">
+		  <br>
+		  Upon completion of these steps, the website will provide you with the result of your attendance percentage, as well as inform you of the number of classes you need to attend to achieve an 85% attendance rate.<br>
+		  Thank you for using our website.
+				  </div>
+			  </div>
+		</div>
+		<form>
+			<label for="classes">Total classes:</label>
+			<input class="text" type="number" id="classes" name="classes" required>
+
+			<label for="attended">Classes attended:</label>
+			<input class="text" type="number" id="attended" name="attended" required>
+
+			<button type="submit">Calculate</button>
+		</form>
+	
+		<table>
+			<tr>
+			  <th>percentage</th>
+			  <th>Classes required</th>
+			  <th>Fine (Rs.)</th>
+			</tr>
+			<tr>
+			  <td><p id="percentage"></p></td>
+			  <td><p id="result"></p></td>
+			  <td><P id="fine"></P></td>
+			</tr>
+
+
+		  </table>
+		  <button class="help" onclick="popup()"> Need Help?</button>
+
+
+	</div>
+
+	<script src="main.js"></script>
+</body>
+</html>

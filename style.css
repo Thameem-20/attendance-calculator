@@ -1,0 +1,131 @@
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lavender;
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+label {
+    font-family: 'Fira Sans', sans-serif;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.text{
+    font-family: 'Fira Sans', sans-serif;
+	font-size: 18px;
+	padding: 10px;
+	border-radius: 50px;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+	width: 50%;
+	max-width: 400px;
+}
+
+button {
+	font-size: 18px;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	background-color: teal;
+	color: #fff;
+	cursor: pointer;
+	transition: background-color 0.2s;
+}
+
+button:hover {
+	background-color: teal;
+}
+
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+  }
+  
+  td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+	background-color: #dddddd;
+  }
+  .help{
+	background: none;
+	color: teal;
+	font-size: 15px;
+  }
+  .help:hover{
+	background: none;
+	color: black;
+	font-size: 16px;
+  }
+
+  .popup{
+	border: 2px solid teal;
+	width: 70vw;
+	height: 70vh;
+	position: fixed;
+	margin: auto;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 128, 128, 0.845);
+	border-radius: 20px;
+	display: none;
+
+  }
+  .cancel{
+	cursor: pointer;
+	font-weight: bold;
+	background-color: transparent;
+	display: inline-block;
+	float: right;
+	font-size: 40px;
+	border-radius: 25px;
+	color: white;
+	margin-right: 10px;
+  }
+  .cancel:hover{
+ font-size: 42px;
+ color: #ccc;
+  }
+  .steps{
+	display: flex;
+	justify-content: center;
+	color: white;
+	text-align: left;	
+
+	font-size: 30px;
+	align-items: center;
+	line-height: 70px;
+
+}
+.about{
+	color: white;
+	font-size: 20px;
+}
