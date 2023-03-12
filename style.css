@@ -16,6 +16,7 @@ body{
 
 h1 {
     font-family: 'Bebas Neue', cursive;
+    color: rebeccapurple;
 	font-size: 36px;
 	margin-bottom: 20px;
 }
@@ -28,7 +29,7 @@ form {
 }
 
 label {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif,;
 	font-size: 18px;
 	margin-bottom: 10px;
 }
@@ -63,7 +64,9 @@ button:hover {
 table {
 	font-family: arial, sans-serif;
 	border-collapse: collapse;
+	border-radius: 10px;
 	width: 100%;
+	margin-top: 20px;
   }
   
   td, th {
@@ -84,6 +87,7 @@ table {
 	background: none;
 	color: black;
 	font-size: 16px;
+	margin-top: 10px;
   }
 
   .popup{
@@ -135,13 +139,13 @@ table {
  
    font-size: 19px;
    line-height: 30px;
-   color: black;
+   color: white;
    padding: 10px;
  }
  
 .about{
-  color: black;
-  font-size: 15px;
+  color: white;
+  font-size: 18px;
 }
   .popup{
     width: 98vw;
@@ -152,13 +156,17 @@ table {
 }
 
 footer{
-  background: teal;
+  font-size: 15px;
+  background: rebeccapurple;
   color: lavender;
   width:100vw;
   position: fixed;
   bottom: 0;
   height: 30px;
   text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
   
   
 }
