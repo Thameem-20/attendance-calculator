@@ -30,7 +30,7 @@ form.addEventListener('submit', e => {
         
     }else if(attendancePercentage <70) {
         document.getElementById('fine').innerHTML=" above 1000";
-    }else  {
+    }else  if(attendancePercentage >=85) {
         document.getElementById('fine').innerHTML=" 0";
     }
 
