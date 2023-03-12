@@ -4,7 +4,7 @@
     padding: 0;
 }
 body{
-    background-color: lavender;
+    background: #222222;
 }
 
 .container {
@@ -16,7 +16,7 @@ body{
 
 h1 {
     font-family: 'Bebas Neue', cursive;
-    color: rebeccapurple;
+    color: #01FFFF;
 	font-size: 36px;
 	margin-bottom: 20px;
 }
@@ -31,6 +31,7 @@ form {
 label {
     font-family: 'Fira Sans', sans-serif,;
 	font-size: 18px;
+	color: white;
 	margin-bottom: 10px;
 }
 
@@ -62,9 +63,10 @@ button:hover {
 
 
 table {
+  color: white;
 	font-family: arial, sans-serif;
 	border-collapse: collapse;
-	border-radius: 10px;
+	border-radius: 5px;
 	width: 100%;
 	margin-top: 20px;
   }
@@ -76,11 +78,11 @@ table {
   }
   
   tr:nth-child(even) {
-	background-color: #dddddd;
+	background-color: black;
   }
   .help{
 	background: none;
-	color: teal;
+	color: #01FFFF;
 	font-size: 15px;
   }
   .help:hover{
@@ -157,7 +159,7 @@ table {
 
 footer{
   font-size: 15px;
-  background: rebeccapurple;
+  background: #016368;
   color: lavender;
   width:100vw;
   position: fixed;
